@@ -9,7 +9,7 @@ std::string Greeter::greet(LanguageCode lang) const {
   switch (lang) {
     default:
     case LanguageCode::EN:
-      return fmt::format("Hello, {}!", name);
+      return fmt::format("Hello eblo, {}!", name);
     case LanguageCode::DE:
       return fmt::format("Hallo {}!", name);
     case LanguageCode::ES:
