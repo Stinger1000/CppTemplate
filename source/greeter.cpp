@@ -18,3 +18,7 @@ std::string Greeter::greet(LanguageCode lang) const {
       return fmt::format("Bonjour {}!", name);
   }
 }
+
+void Greeter::test(){
+	int i = 0;
+}
