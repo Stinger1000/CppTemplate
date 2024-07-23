@@ -16,5 +16,7 @@ std::string Greeter::greet(LanguageCode lang) const {
       return fmt::format("¡Hola {}!", name);
     case LanguageCode::FR:
       return fmt::format("Bonjour {}!", name);
+    case LanguageCode::RU:
+      return fmt::format("Vodka {}!", name);
   }
 }
