@@ -21,4 +21,5 @@ std::string Greeter::greet(LanguageCode lang) const {
 
 static void test(){
 	int i = 0;
+	++i;
 }
